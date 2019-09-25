@@ -6,6 +6,10 @@ public class Ember {
     private String szulHely;
     private String szulIdo;
     
+    public Ember(){
+    
+    }
+    
     public Ember(String nev, String szulHely, String szulIdo) {
         this.nev = nev;
         this.szulHely = szulHely;
