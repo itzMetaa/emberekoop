@@ -12,7 +12,15 @@ public class Ember {
     
     }
     
-    public Ember(String nev, String szulHely, String szulIdo) {
+    public Ember(String sor){
+        String[] adatok = sor.split(";");
+        this.nev = adatok[0];
+        this.szulHely = adatok[2];
+        this.szulIdo = adatok[1];
+        
+    }
+    
+    public Ember(String nev, String szulIdo, String szulHely) {
         this.nev = nev;
         this.szulHely = szulHely;
         this.szulIdo = szulIdo;
